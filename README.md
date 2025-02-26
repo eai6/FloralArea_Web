@@ -2,6 +2,8 @@
 
 This repository contains a web application for estimating floral area using AI-powered algorithm. The application is built with YOLOv8 and integrates with **Gradio** for an interactive user interface.
 
+![alt text](image.png)
+
 ## Features
 - **AI-based floral area estimation**
 - **Easy-to-use web interface** powered by Gradio
