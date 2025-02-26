@@ -1,0 +1,5 @@
+{
+    "flower_model": "models/flower_model.pt",
+    "reference_object_model": "models/reference_object_model.pt",
+    "reference_object_area": 58.0
+}
