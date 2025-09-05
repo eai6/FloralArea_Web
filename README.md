@@ -73,3 +73,13 @@ Department of Entomology, Center for Pollinator Research, Huck Institutes of the
 
 4️⃣ Christina M. Grozinger
 Department of Entomology, Center for Pollinator Research, Huck Institutes of the Life Sciences, Penn State University, University Park, PA
+
+
+## License
+
+This project is licensed under the [Polyform Noncommercial License 1.0.0](./LICENSE).  
+It is free to use, modify, and share **for research and other non-commercial purposes**.  
+
+**Commercial use is not permitted under this license.**  
+Commercial users must obtain a separate license from the copyright holder.  
+For commercial licensing inquiries, please contact: eai6@psu.edu or cmg25@psu.edu
