@@ -174,3 +174,14 @@ cython_debug/
 # data
 data/tiles/*
 data/output/*
+
+
+
+
+data/*
+
+
+
+research/notebooks/data
+
+models
