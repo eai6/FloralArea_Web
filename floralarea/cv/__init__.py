@@ -1,18 +1,32 @@
 """
-Computer Vision module for FloralArea
-Contains image processing and YOLO model utilities
+Computer Vision modules for FloralArea
+
+Includes:
+- SAM 3 segmentation (text-prompted, zero-shot)
+- Distance-based measurement (LiDAR-ready)
 """
 
-from floralarea.cv.yolov8 import yolov8
-from floralarea.cv.img_processing import getPixelArea, apply_preprocessing, crop_image
-from floralarea.cv.runTiles import runTilles, slice_image, combine_tiles
+# SAM 3
+try:
+    from floralarea.cv.sam3_huggingface import SAM3HuggingFaceSegmenter
+except ImportError:
+    SAM3HuggingFaceSegmenter = None
+
+# Distance measurement
+try:
+    from floralarea.cv.distance_measurement import (
+        DistanceBasedMeasurement,
+        estimate_area_from_distance,
+        estimate_error_percentage
+    )
+except ImportError:
+    DistanceBasedMeasurement = None
+    estimate_area_from_distance = None
+    estimate_error_percentage = None
 
 __all__ = [
-    'yolov8',
-    'getPixelArea',
-    'apply_preprocessing',
-    'crop_image',
-    'runTilles',
-    'slice_image',
-    'combine_tiles',
+    'SAM3HuggingFaceSegmenter',
+    'DistanceBasedMeasurement',
+    'estimate_area_from_distance',
+    'estimate_error_percentage',
 ]

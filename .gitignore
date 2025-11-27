@@ -185,3 +185,5 @@ data/*
 research/notebooks/data
 
 models
+output_*
+distance*
