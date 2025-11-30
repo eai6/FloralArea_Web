@@ -1,4 +1,4 @@
-file,flower,distance_camera_to_ground_cm,measured_area_cm2,predicted_distance_based_area_cm2,predicted_referenbase_based_area_cm2
+file,flower,distance_camera_to_ground_cm,measured_area_cm2,predicted_distance_based_area_cm2,predicted_reference_based_area_cm2
 PXL_20240214_175352365_100cm_F21_.jpg,F21,100,19.6967348,20.29670634,18.23900941
 PXL_20240214_175033319_60cm_F18_.jpg,F18,60,35.9870248,19.5377583,25.09623752
 PXL_20240214_173904525_100cm_F13_.jpg,F13,100,98.9804472,102.6263889,96.59829885
